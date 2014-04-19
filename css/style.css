@@ -167,11 +167,13 @@ a.backtoblog{width:92%; padding:3% 4%; margin:-10px 0 15px 0; text-align:center;
 
 
 /*-----------------Service page style-------------------*/
-.service_box{ width:100%; float:left; clear:both; padding:0 0 5px 0;margin:0 0 10px 0;}
-.services_icon{ padding:6% 0; width:28%;height:auto; float:left; display:block; text-align:center;}
-.services_icon img{ display:block; max-width:70%; margin:auto;}
-.service_content{ float:left; width:67%; padding:0 0 0 4%;}
-.service_content h4{ padding:0px 0 10px 0;}
+.service_box{ width:100%; float:left; clear:both; }
+.service_box{color:#5e5e5e;}
+.services_icon{ width:25%;height:auto; float:left; display:block; text-align:center;}
+.services_icon img{ display:block; max-width:100%; margin:auto;}
+.service_content{ float:left; width:57%; padding:0 0 0 4%;}
+.service_content h4{ font-weight:bold;}
+.service_right{float:right;padding-top:20px;display:block;}
 
 /*-----------------Clients page style-------------------*/
 .client_row{width:100%; float:left; clear:both; padding:0 0 5px 0;margin:0 0 10px 0;}

@@ -16,10 +16,11 @@ a.button_11, a.button_12{color:#FFFFFF;}
     src: url('fonts/Thai Sans Lite.eot');
     src: url('fonts/Thai Sans Lite.eot?#iefix') format('embedded-opentype'),
     url('fonts/Thai Sans Lite.svg#Thai Sans Lite') format('svg'),
-    url('fonts/Thai Sans Lite.woff') format('woff'),
-    url('fonts/Thai Sans Lite.ttf') format('truetype');
+    url('fonts/Thai Sans Lite.ttf') format('truetype'),
+    url('fonts/Thai Sans Lite.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+	text-rendering: auto;
     }
 
 	
@@ -113,7 +114,6 @@ a.post_readmore{background:url(images/bullet_cross_white.png) no-repeat left;}
 .portfolio_details h4{color:#4a8d09;}
 
 .service_box, .client_row{border-bottom:1px #ddd solid;}
-.services_icon{background-color:#b2b2b2;-webkit-border-radius:200px;-moz-border-radius:200px;border-radius:200px;}
 
 ul.responsive_table li:first-child{background-color:#85af5d;color:#FFFFFF;-moz-border-radius-topleft:5px;-webkit-border-top-left-radius:5px;border-top-left-radius:5px;
 -moz-border-radius-topright:5px;-webkit-border-top-right-radius:5px;border-top-right-radius:5px;}

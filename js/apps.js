@@ -44,7 +44,7 @@
   function closeAds() {
       document.getElementById('fullstage').style.display = "none";
   }
-
+  
   function rate_app_link() {
       window.open("http://www.w3schools.com");
   }
@@ -57,7 +57,10 @@
           success: function(data) {
               $("#recommend_app").empty();
               $.each(data, function(i, item) {
-                  $("#recommend_app").append("<div class='portfolio_item radius8'><div class='portfolio_image'><a rel='gallery-1' href='" + item.iphonelink + "' class='swipebox' target='_blank'><img src='" + item.thumbnail + "' alt='' title='' border='0' /></a></div><div class='portfolio_details'><h4>" + item.name + "</h4><p>" + item.description + "</p><a rel='gallery-2' href='" + item.iphonelink + "' class='swipebox view_details' target='_blank'>Click to view details</a> </div></div>");
+				
+                  $("#recommend_app").append('<a href='+item.iphonelink+'><div class="service_box"><div class="services_icon"><img src="'+item.thumbnail+'" alt="" title="" /></div><div class="service_content"><h4>'+item.name+'</h4>'+item.description+'adsf erw afdew dcvva erwe vzcxs erwew</div><div class="service_right"><i class="fa fa-angle-right fa-3x"></i></div></div></a>');
+				  
+				  
               })
 			  swiperNested2.reInit();
               setTimeout(apprecommend, 60 * (60 * 1000));
@@ -67,3 +70,7 @@
           }
       });
   });
+  
+  function panel1() {
+	swiperParent.swipeTo(1);
+  }

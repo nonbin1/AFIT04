@@ -12,9 +12,19 @@
 <meta name="keywords" content="mobile web app, mobile template, mobile design, mobile app design, mobile app theme, mobile wordpress theme, my mobile app" />
 <title>หุ้น</title>
 <link type="text/css" rel="stylesheet" href="css/style.css"/>
-<link type="text/css" rel="stylesheet" href="colors/splash/splash.css"/>
+<link type="text/css" rel="stylesheet" href="splash.css"/>
 <link type="text/css" rel="stylesheet" href="css/idangerous.swiper.css"/>
 <link type="text/css" rel="stylesheet" href="css/swipebox.css" />
+<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css" />
+
+
+<script type="text/javascript" charset="utf-8">
+	document.addEventListener("deviceready", onDeviceReady, false);
+	function onDeviceReady() {
+        navigator.splashscreen.hide();
+    }
+
+</script>
 
 </head>
 <body>
@@ -28,7 +38,7 @@
       <div class="swiper-slide sliderbg_splash">
       <div class="swiper-container swiper-nestedsplash">
                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
+                    <div class="">
                               <div class="slide-inner">
                                         <div class="splash_container">
                                             <div class="logo">
@@ -39,15 +49,15 @@
 											
 											 <div class="menu">
 												<ul>
-												<li><a href="#" onclick="swiperParent.swipeTo(1);"><img src="images/icons/pencil.png" alt="" title="" /><span>เช็คข้อมูล</span></a></li>
-												<li><a href="#" onclick="swiperParent.swipeTo(2);"><img src="images/icons/services.png" alt="" title="" /><span>เพิ่มเติม...</span></a></li>
-												<li><a href="mailto:contact@flutx.com"><img src="images/icons/contact.png" alt="" title="" /><span>ติดต่อเรา</span></a></li>
+												<li><a href="#" onclick="swiperParent.swipeTo(1);"><i class="fa fa-bar-chart-o fa-3x"></i><span>ดัชนี SET</span></a></li>
+												<li><a href="#" onclick="swiperParent.swipeTo(1);"><i class="fa fa-btc fa-3x"></i><span>Trade Volume</span></a></li>
+												<li><a href="#" onclick="swiperParent.swipeTo(2);"><i class="fa fa-plus fa-3x"></i><span>More</span></a></li>
 												</ul>
 												<div class="clearfix"></div>
 											</div>
 											
                                             <div class="slide-to-navigate">
-                                            <a href="#" onclick="swiperParent.swipeTo(1);"><img src="colors/splash/images/slide-to-navigate.png" alt="" title="" border="0" /></a> <br />
+                                            <a href="#" onclick="swiperParent.swipeTo(1);"><img src="images/slide-to-navigate.png" alt="" title="" border="0" /></a> <br />
 											เลื่อนเพื่อเช็คข้อมูล
                                             </div>
                                         </div>
@@ -224,19 +234,21 @@
      </div>
      </div>
       
-<!--Page 4 content-->
+<!--Page 2 content-->
       <div class="swiper-slide sliderbg">
       <div class="swiper-container swiper-nested2">
                <div class="swiper-wrapper">
                     <div class="swiper-slide">
                               <div class="slide-inner">
                                         <div class="pages_container">
-											<h2 class="page_title">Suggest Apps</h2>
+											<h2 class="page_title">แอพลิเคชั่นแนะนำ</h2>
                                       
 											<div id="recommend_app"></div>
 											
 											<div class="clearfix"></div>
-											<div class="scrolltop radius20"><a href="#" class="scrolltop2"><img src="images/icons/top.png" alt="Go on top" title="Go on top" /></a></div>
+											
+											<div style="width:1px; height:50px;"></div>
+											</a></div>
 										   
 										</div>
 								</div>
@@ -260,7 +272,7 @@
 <script type="text/javascript" src="js/jquery.tabify.js"></script>
 <script type="text/javascript" src="js/code.js"></script>
 <script type="text/javascript" src="js/splash.js"></script>
-<script type="text/javascript" src="http://apps.flutx.com/finance_th/settoday/js/apps.js"></script>
+<script type="text/javascript" src="js/apps.js"></script>
 
 <script src="https://cdn.flurry.com/js/flurry.js"></script>
 <script>FlurryAgent.startSession("MK8RPZTG5YFW76T9W8CX");</script>

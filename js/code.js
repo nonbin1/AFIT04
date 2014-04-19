@@ -177,7 +177,7 @@ $(".swipebox").swipebox();
 $(function() {
 
 
-$(".toggle_container").show();
+$(".toggle_container").hide();
 $(".trigger").click(function(){
    $(this).toggleClass("active").next().slideToggle( "slow", function() {
    swiperNested1.reInit();
